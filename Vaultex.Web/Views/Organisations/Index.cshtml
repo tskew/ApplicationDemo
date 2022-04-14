@@ -1,0 +1,28 @@
+﻿@model Vaultex.Logic.ViewModels.OrganisationIndexViewModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Organisation Number</th>
+            <th>Organisation Name</th>
+            <th>Address</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var organisation in Model.Organisations)
+        {
+            <tr>
+                <td>organisation.Number</td>
+                <td>organisation.Name</td>
+                <td>organisation.Address</td>
+            </tr>
+        }
+    </tbody>
+</table>
