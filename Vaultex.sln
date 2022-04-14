@@ -5,6 +5,14 @@ VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vaultex.Web", "Vaultex.Web\Vaultex.Web.csproj", "{295D2DF5-95DB-4F50-A8B8-71D9733A01E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vaultex.Logic", "Vaultex.Logic\Vaultex.Logic.csproj", "{860C8C85-8EBA-4F1E-AC88-93429CFF9BB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vaultex.Entities", "Vaultex.Entities\Vaultex.Entities.csproj", "{4CDE8922-260F-4F2B-93D8-01B3C2B12921}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vaultex.Logic.UnitTests", "Vaultex.Logic.UnitTests\Vaultex.Logic.UnitTests.csproj", "{E13396B9-7E77-4617-A6BC-29B664C7A1E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vaultex.Data", "Vaultex.Data\Vaultex.Data.csproj", "{582E491D-A5C3-48B8-90C8-03134320BB18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{295D2DF5-95DB-4F50-A8B8-71D9733A01E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{295D2DF5-95DB-4F50-A8B8-71D9733A01E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{295D2DF5-95DB-4F50-A8B8-71D9733A01E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{860C8C85-8EBA-4F1E-AC88-93429CFF9BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{860C8C85-8EBA-4F1E-AC88-93429CFF9BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{860C8C85-8EBA-4F1E-AC88-93429CFF9BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{860C8C85-8EBA-4F1E-AC88-93429CFF9BB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CDE8922-260F-4F2B-93D8-01B3C2B12921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CDE8922-260F-4F2B-93D8-01B3C2B12921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CDE8922-260F-4F2B-93D8-01B3C2B12921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CDE8922-260F-4F2B-93D8-01B3C2B12921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E13396B9-7E77-4617-A6BC-29B664C7A1E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E13396B9-7E77-4617-A6BC-29B664C7A1E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E13396B9-7E77-4617-A6BC-29B664C7A1E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E13396B9-7E77-4617-A6BC-29B664C7A1E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{582E491D-A5C3-48B8-90C8-03134320BB18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{582E491D-A5C3-48B8-90C8-03134320BB18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{582E491D-A5C3-48B8-90C8-03134320BB18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{582E491D-A5C3-48B8-90C8-03134320BB18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
